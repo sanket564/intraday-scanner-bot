@@ -5,8 +5,8 @@ from telegram import Bot
 import os
 
 # Load secrets from environment
-TELEGRAM_TOKEN = os.environ['8392997604:AAG2TRfmLemLTLjU9ngoS-vypxCwZcKDWQQ']
-TELEGRAM_CHAT_ID = os.environ['1471908211']
+TELEGRAM_TOKEN = os.environ['TELEGRAM_BOT_TOKEN']
+TELEGRAM_CHAT_ID = os.environ['TELEGRAM_CHAT_ID']
 
 bot = Bot(token=TELEGRAM_TOKEN)
 
